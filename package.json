@@ -21,9 +21,11 @@
 		"@smui/card": "^7.0.0-beta.4",
 		"@smui/common": "^7.0.0-beta.4",
 		"@smui/form-field": "^7.0.0-beta.8",
+		"@smui/icon-button": "^7.0.0-beta.8",
 		"@smui/layout-grid": "^7.0.0-beta.4",
 		"@smui/radio": "^7.0.0-beta.4",
 		"@smui/select": "^7.0.0-beta.8",
+		"@smui/snackbar": "^7.0.0-beta.8",
 		"@smui/textfield": "^7.0.0-beta.4",
 		"@smui/top-app-bar": "^7.0.0-beta.4",
 		"@sveltejs/adapter-auto": "^2.0.0",
@@ -42,6 +44,8 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"bcrypt": "^5.1.0",
+		"mysql2": "^3.3.0",
 		"smui": "^1.0.5"
 	}
 }
