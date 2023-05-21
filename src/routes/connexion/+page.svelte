@@ -1,10 +1,11 @@
 <script>
     import Textfield from "@smui/textfield"
     import Button from "@smui/button"
+	import { redirect } from "@sveltejs/kit";
+	//import { goto } from "$app/navigation";
 
     /** @type {import('./$types').ActionData} */
     export let form;
-
 </script>
 
 <h1 style="text-align: center">Connexion</h1>

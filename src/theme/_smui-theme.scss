@@ -28,6 +28,10 @@ header.mdc-top-app-bar {
   position: unset;
 }
 
+:not(header.mdc-top-app-bar) {
+  text-align: center;
+}
+
 a {
   color: #40b3ff;
 }
