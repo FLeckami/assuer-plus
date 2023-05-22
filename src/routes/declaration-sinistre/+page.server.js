@@ -18,6 +18,7 @@ export const actions = {
         const [r, f] = await event.fetch(`getUser:${event.cookies.get('email')}`)
         let user = r[0]
         let data = await event.request.formData()
+        data.forEach((v, k) => console.log(k, v))
 		await event.fetch(`sql:INSERT INTO DeclarationSinistre (idClient, typeSinistre, natureSinistre, description, documents) VALUES 
         (${user.id}, '${data.get('typeSinistre')}', '${data.get('natureSinistre')}', '${data.get('description')}', '${data.get('documents')}')`
         )
